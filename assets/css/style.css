@@ -130,6 +130,7 @@ input {
     url("../fonts/Relaycont-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 @font-face {
@@ -140,6 +141,7 @@ input {
     url("../fonts/Relaycond-medium.svg") format("svg");
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 .header-nav-primary,
