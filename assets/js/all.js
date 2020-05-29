@@ -19319,4 +19319,7 @@ function today() {
 
 today();
 
+const projLazyLoad = new LazyLoad({
+  elements_selector: "img",
+});
 /*=================================================================*/
