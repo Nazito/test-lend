@@ -6241,10 +6241,7 @@
                           ? g[c]
                           : b[e]
                         : void (g
-                            ? g.scrollTo(
-                                d ? a.pageXOffset : f,
-                                d ? f : a.pageYOffset
-                              )
+                            ? g.scrollTo(d ? a.pageXOffset : f)
                             : (b[e] = f));
                     },
                     b,
@@ -19274,7 +19271,8 @@
 );
 
 $(document).ready(function () {
-  $("#sidebar").scrollToFixed({ marginTop: 154 }); //+++
+  $("#sidebar").scrollToFixed({ marginTop: 160 }); //+++
+  $("body").removeClass("header-active module-reading-list-collapsed");
 });
 
 jQuery("a").attr("target", "_blank");

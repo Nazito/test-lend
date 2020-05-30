@@ -20,6 +20,10 @@
   margin-top: 10px;
 } */
 
+* {
+  box-sizing: border-box;
+}
+
 .row,
 body {
   -webkit-box-direction: normal;
@@ -39,8 +43,10 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-body {
+body,
+html {
   margin: 0;
+  padding: 0;
 }
 
 article,
@@ -2290,7 +2296,9 @@ body.header-active #comment .lightbox-content {
 .footer {
   width: 100%;
   background: #1a2b36;
+  box-sizing: border-box;
   padding: 20px 0;
+  position: relative;
 }
 
 .footer-logo img {
